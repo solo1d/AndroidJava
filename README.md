@@ -133,6 +133,11 @@ String pt = msg.obj.toString().substring(msg.obj.toString().indexOf("temp")+4,ms
               System.loadLibrary("native-lib");
           }
       
+          // 获得文本编辑框的ID并赋予 tv,  简化了 findViewByd()
+      		@BindView(R.id.sample_text)
+      	  public TextView tv ;
+      
+        
           @Override
           protected void onCreate(Bundle savedInstanceState) {
             // 这里是 界面打开后, 最先运行的地方
