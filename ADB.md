@@ -1,6 +1,7 @@
 ```bash
 ADB 安卓debug工具
 
+$adb  devices   # 查看有哪些硬件存在
 $adb  logcat               #查看日志
 $adb  shell                #adb linux命令行, 默认根目录在 安卓手机那里
 $adb  install  *.apk       #安装 apk
