@@ -268,6 +268,7 @@ String pt = msg.obj.toString().substring(msg.obj.toString().indexOf("temp")+4,ms
             android:textSize="30sp" />
 
 <!--   文本编辑框    -->
+   <!-- hint 是悬浮的灰色字, 只是提示功能 -->
         <EditText
             android:id="@+id/edittext"
             android:layout_width="wrap_content"
